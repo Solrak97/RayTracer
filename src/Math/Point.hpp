@@ -1,11 +1,13 @@
-#ifndef _POINT_H
-#define _POINT_H
+#ifndef POINT_H
+#define POINT_H
 
 #include "Tuple.hpp"
+#include "Vector.hpp"
 
 namespace Math
 {
-    class Point : Tuple
+    class Vector;
+    class Point : public Tuple
     {
 
     private:
